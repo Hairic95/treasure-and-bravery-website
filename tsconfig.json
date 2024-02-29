@@ -3,12 +3,8 @@
   "allowJs": true,
   "resolveJsonModule": true,
   "compilerOptions": {
-<<<<<<< Updated upstream
-    "baseUrl": "./treasure-and-bravery-website/"
-=======
     "target": "es2017",
     "noImplicitAny": false,
-    "baseUrl": "."
->>>>>>> Stashed changes
+    "baseUrl": "https://hairic95.github.io/treasure-and-bravery-website/"
   }
 }
