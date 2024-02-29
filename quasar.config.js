@@ -13,6 +13,14 @@ const path = require('path');
 
 module.exports = configure(function (/* ctx */) {
   return {
+    supportTS: {
+      tsCheckerConfig: {
+        eslint: {
+          enabled: true,
+          files: './src/**/*.{ts,tsx,js,jsx,vue}',
+        },
+      },
+    },
     eslint: {
       // fix: true,
       // include = [],
