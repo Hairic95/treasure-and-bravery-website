@@ -9,12 +9,8 @@
     "lint": "eslint --ext .js,.ts,.vue ./",
     "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "dev": "quasar dev",
-<<<<<<< Updated upstream
-    "build": "quasar build -d && npm run post-build",
-=======
     "build": "quasar build  && npm run post-build",
     "deploy": "push-dir --dir=dist/spa --remote=gh-pages --branch=master",
->>>>>>> Stashed changes
     "post-build": "node post-build.js"
   },
   "dependencies": {
