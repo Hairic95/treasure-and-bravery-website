@@ -7,6 +7,11 @@ export enum EPages {
   Home = 'Home',
   CharacterCreation = 'CharacterCreation',
   HowToPlay = 'HowToPlay',
+  Combat = 'Combat',
+  Magic = 'Magic',
+  Items = 'Items',
+  Npcs = 'Npcs',
+  CharacterGenerator = 'CharacterGenerator',
 }
 
 export enum EClass {

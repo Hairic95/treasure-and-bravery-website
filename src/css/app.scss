@@ -18,8 +18,18 @@ body {
   font-family: Nunito;
 }
 
-/* Text */
+/* Layout */
+.white-borders {
+  border: white 2px solid;
+}
+.btn-menu {
+  width: 240px;
+}
 
+/* Text */
+.text-size-12 {
+  font-size: 12px;
+}
 .text-size-18 {
   font-size: 18px;
 }
