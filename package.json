@@ -9,7 +9,7 @@
     "lint": "eslint --ext .js,.ts,.vue ./",
     "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "dev": "quasar dev",
-    "build": "quasar build && npm run post-build",
+    "build": "quasar build -d && npm run post-build",
     "post-build": "node post-build.js"
   },
   "dependencies": {
